@@ -1,0 +1,66 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #c8dfb1;;
+    margin:0;
+    padding: 20px;
+    text-align: center;
+}
+
+.container {
+    position: relative;
+}
+
+.beranda {
+    position: absolute;
+    top: 10px;
+    left: 15px;
+    background: lightgray;
+    padding: 6px 10px;
+    border-radius: 5px;
+}
+
+.container {
+    width: 95%;
+    max-width: 1200px;
+    margin: 20px auto;
+}
+.container {
+    background: rgb(151, 194, 180);
+    padding: 25px;
+    border-radius: 15px;
+    width: 95%;
+    max-width: 1700px;
+    margin: 0 auto;
+    box-shadow: 0 0 15px rgb(10, 7, 7);
+}
+
+
+img {
+    border-radius: 20px;
+}
+
+a {
+    display: inline-block;
+    margin-bottom: 10px;
+    text-decoration: none;
+    color: rgb(10, 88, 148);
+}
+
+.cuplikan {
+    text-align: justify;
+}
+
+.lirik-box {
+    background-color: #5fad66;
+    padding: 20px;
+    margin: 20px auto;
+    border-radius: 10px;
+    border: 1px solid #464b05;
+    max-height: 200px;
+    max-width: 1000px;
+    overflow-y: scroll;
+    text-align: center;
+    line-height: 1.7;
+
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}

@@ -1,0 +1,83 @@
+body {
+    font-family: Arial;
+    background: #c8dfb1;
+    margin: 0;
+}
+
+.container {
+    width: 90%;
+    max-width: 1700px;
+    margin: 30px auto;
+    background: rgb(151, 194, 180);
+    padding: 20px;
+    border-radius: 20px; 
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2); 
+}
+
+
+.header {
+    text-align: center;
+}
+
+
+.profile-pic {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%; 
+    object-fit: cover;
+}
+
+.section {
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 10px; 
+    background: #e9f1dbde;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.section h2 {
+    margin-top: 0;
+    background: #d4d478;
+    color: white;
+    padding: 8px;
+    border-radius: 10px; 
+}
+
+button {
+    margin-top:20px;
+    padding: 10px;
+    background: rgb(93, 122, 93);
+    color: white;
+    border: none;
+    border-radius: 10px; 
+    cursor: pointer;
+}
+
+button:hover {
+    background: rgb(26, 30, 1);
+}
+
+.navbar {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.navbar a {
+    display: inline-block;
+    padding: 10px 60px;
+    background: #1e73d8;
+    color: white;
+    border-radius: 12px;
+    text-decoration: none;
+    margin: 5px;
+    transition: 0.3s;
+}
+
+.navbar a:hover {
+    background: #155ab6;
+}
+
+.navbar span {
+    margin: 0 5px;
+    font-weight: bold;
+}
